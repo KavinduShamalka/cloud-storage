@@ -1,0 +1,16 @@
+[package]
+name = "google-cloud-storage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+google-cloud-storage = "0.14.0"
+cloud-storage = "0.11.1"
+tokio = "1.33.0"
+
+[dependencies.mongodb]
+version = "2.2.0"
+default-features = false
+features = ["async-std-runtime"]
